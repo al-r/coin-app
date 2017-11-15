@@ -6,7 +6,9 @@ This is a React application created from the standard "create-react-app".
 
 ## Installation
 
-Run "npm install" for the initial setup.
+In your terminal, go to where you copied this github repository.
+
+Then, run "npm install" for the initial setup.
 
 
 
