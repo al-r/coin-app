@@ -1,0 +1,68 @@
+.App {
+  text-align: left;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.App-header {
+  padding: 70px;
+  color: white;
+}
+
+.App-title {
+  -webkit-animation: levitation 1.8s ease-out infinite alternate;
+  -o-animation: levitation 1.8s ease-out infinite alternate;
+  animation: levitation 1.8s ease-out infinite alternate;
+  font-size: 3em;
+  font-family: 'Grand Hotel', cursive;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  z-index: 100;
+}
+
+.App-title:after {
+  -webkit-animation: shadowLogo 1.8s ease-out infinite alternate;
+  -o-animation: shadowLogo 1.8s ease-out infinite alternate;
+  animation: shadowLogo 1.8s ease-out infinite alternate;
+  background: rgba(0,0,0,0.3);
+  border-radius: 100px;
+  content: "";
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 50px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 90;
+}
+
+.container {
+  display: table;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0;
+  width: 100%;
+}
+
+/* ***** Animation ***** */
+@-webkit-keyframes levitation {
+  from {margin: 0;}
+  to {margin: -20px 0 20px;}
+}
+@keyframes levitation {
+  from {margin: 0;}
+  to {margin: -20px 0 20px;}
+}
+
+@-webkit-keyframes shadowLogo {
+  from {bottom: 0; width: 50px;}
+  to {bottom: -20px; width: 20px;}
+}
+@keyframes shadowLogo {
+  from {bottom: 0; width: 50px;}
+  to {bottom: -20px; width: 20px;}
+}
