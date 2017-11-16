@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './AmountInput.css';
+import './css/AmountInput.css';
 import CountOutput from './CountOutput';
 
 class AmountInput extends React.Component {

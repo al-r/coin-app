@@ -42,7 +42,7 @@ li {
 	width: 60px;
 }
 
-.two-pound {
+.p-200 {
 	border-right: 3px solid #ccaf00;
 	-webkit-box-shadow: inset 0 0 0 10px #ffdb00;
 	box-shadow: inset 0 0 0 10px #ffdb00;
@@ -51,40 +51,40 @@ li {
 	width: 80px;
 }
 
-.one-pound {
+.p-100 {
 	border-right: 3px solid #ccaf00;
 	-webkit-box-shadow: inset 0 0 0 5px #ffdb00;
 	box-shadow: inset 0 0 0 5px #ffdb00;
 }
 
-.fifty-p {
+.p-50 {
 	height: 40px;
 	padding: 20px 0;
 	width: 80px;
 }
 
-.twenty-p {
+.p-20 {
 	
 }
 
-.ten-p {
+.p-10 {
 
 }
 
-.five-p {
+.p-5 {
 	font-size: 20px;
 	height: 34px;
 	padding: 3px 0;
 	width: 40px;
 }
 
-.two-p {
+.p-2 {
 	background-color: #b24d16;
 	border-right: 3px solid #59260b;
 	color: #59260b;
 }
 
-.one-p {
+.p-1 {
 	background-color: #b24d16;
 	border-right: 3px solid #59260b;
 	color: #59260b;
