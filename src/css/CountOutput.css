@@ -1,5 +1,6 @@
 ul {
 	list-style-type: none;
+	margin: 0 0 20px;
 	padding: 0;
 }
 
@@ -7,14 +8,6 @@ li {
 	display: inline-block;
 	position: relative;
 	width: 25%;
-}
-
-@media screen and (min-width: 740px) {
-	width: 50%;
-}
-
-@media screen and (min-width: 480px) {
-	width: 100%;
 }
 
 .count {
@@ -120,4 +113,12 @@ li {
   40% {bottom: 50px; left: 90%;}
   50% {bottom: 30px;}
   100% {left: 50%;}
+}
+
+/* ***** RESPONSIVE ***** */
+/* Mobile */
+@media screen and (max-width: 480px) {
+  li {
+    width: 50%;
+  }
 }
